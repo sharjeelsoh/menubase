@@ -48,33 +48,11 @@ export default function Contact() {
   };
 
   return (
-    <main className="flex flex-col items-center text-center justify-center">
-      <div className="max-w-md w-full space-y-4">
-        <h1 className="text-2xl font-bold text-center">contact</h1>
+    <main>
+      <div>
+        <h1>contact</h1>
 
-        <p className='text-center'>
-          email me at:{" "}
-          <a href="mailto:sharjeelsoh@gmail.com" className="underline text-blue-600">
-            sharjeelsoh@gmail.com
-          </a>
-          <br></br>
-          linkedin:{" "}
-          <a href="https://www.linkedin.com/in/sharjeelsoh/" className="underline text-blue-600">
-            https://www.linkedin.com/in/sharjeelsoh/
-          </a>
-          <br></br>
-          github:{" "}
-          <a href="https://github.com/sharjeelsoh" className="underline text-blue-600">
-            https://github.com/sharjeelsoh
-          </a>
-          <br></br>
-          depop:{" "}
-          <a href="https://depop.com/sharjeelsoh" className="underline text-blue-600">
-            https://depop.com/sharjeelsoh
-          </a>
-        </p>
-
-        <p className='text-center'>or you can just fill out this form below</p>
+        <p>or you can just fill out this form below</p>
 
         {status && (
           <p className="text-sm text-center text-green-600">{status}</p>
